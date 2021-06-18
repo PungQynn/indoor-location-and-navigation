@@ -1,13 +1,13 @@
 import numpy as np
 import pandas as pd
 
-import helper_f
+import utils
 import compute_f
 
 from glob import glob
 from tqdm import tqdm
 from scipy.interpolate import interp1d
-from io_f import read_data_file
+from utils import read_data_file
 
 input_dir = '../input/indoor-location-navigation'
 extend_input_dir = '../input/indoorlocationandnavigation'
